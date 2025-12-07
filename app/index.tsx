@@ -1,11 +1,11 @@
 import { View, Text, StyleSheet } from 'react-native';
 
-// Page qui devait initialement recevoir l'application flutter renvoyant le profile
-export default function SearchScreen() {
+// Page d'accueil de l'appliation.
+export default function HomeScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Recherche</Text>
-      <Text>Recherchez quelque chose</Text>
+      <Text style={styles.title}>Home</Text>
+      <Text>Bienvenue sur l'écran d'accueil</Text>
     </View>
   );
 }

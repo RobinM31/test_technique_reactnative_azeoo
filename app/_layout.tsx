@@ -1,5 +1,7 @@
 import { Tabs } from 'expo-router';
 
+// Contient la gestion de naviagtion de la tab Bar
+// Redirige vers la page d'acceuil, le profile et la page de recherche
 export default function TabLayout() {
   return (
     <Tabs>
